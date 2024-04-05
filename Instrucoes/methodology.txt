@@ -1,0 +1,14 @@
+1 - Acquisition of the building's floor plan
+2 - Survey of on-site coordinates
+3 - Conversion of AutoCad file to shapefile
+4 - Dissolve features extracted from attributes
+5 - Analyze corridor width
+6 - Conducting investigation of the central position of the corridors
+7 - Network mesh generation
+8 - Network node generation
+9 - Acquisition of arches and network nodes
+10 - Corridor categorization
+11 - Obstacle categorization
+12- Node categorization
+13 - Calculate cost
+14 - Set route

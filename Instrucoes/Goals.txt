@@ -1,0 +1,2 @@
+→ Develop an application capable of helping sighted and non-sighted people to locate themselves inside a building.
+Universal Design, Accessibility, indoor location.
