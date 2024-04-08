@@ -10,6 +10,8 @@ Mayra Corrêa (http://lattes.cnpq.br/8572857719124880);
 
 Atman Solino (http://lattes.cnpq.br/1462410166107254);
 
-Edilson Bias (http://lattes.cnpq.br/3035374199466563)
-Rejane Cicerelli (http://lattes.cnpq.br/7126684173800825)
-Carlos H. Llanos (http://lattes.cnpq.br/0164966065084195)
+Edilson Bias (http://lattes.cnpq.br/3035374199466563);
+
+Rejane Cicerelli (http://lattes.cnpq.br/7126684173800825);
+
+Carlos H. Llanos (http://lattes.cnpq.br/0164966065084195).
