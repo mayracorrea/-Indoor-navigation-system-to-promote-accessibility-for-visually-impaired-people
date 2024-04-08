@@ -5,9 +5,11 @@ You can use the shape file from the location where you want to work. For confide
 ![novarota](https://github.com/mayracorrea/Indoor-navigation-system-visually-impaired-people/assets/62765672/7e58072d-1123-4b19-8e98-ca08b54afd38)
 Fig 1 -  Route defined for the first day of class for an environmental engineering student. 
 
-**Project collaborators**
-Mayra Corrêa (http://lattes.cnpq.br/8572857719124880)
-Atman Solino (http://lattes.cnpq.br/1462410166107254)
+**Project collaborators**: 
+Mayra Corrêa (http://lattes.cnpq.br/8572857719124880);
+
+Atman Solino (http://lattes.cnpq.br/1462410166107254);
+
 Edilson Bias (http://lattes.cnpq.br/3035374199466563)
 Rejane Cicerelli (http://lattes.cnpq.br/7126684173800825)
 Carlos H. Llanos (http://lattes.cnpq.br/0164966065084195)
