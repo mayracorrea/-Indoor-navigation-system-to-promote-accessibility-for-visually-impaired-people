@@ -1,0 +1,36 @@
+
+STEP 01:
+Import the precision coordinate point data ([points_coord.gpx]) acquired at easily detectable locations on the building floor plan (corners and end-of-corridor windows). Convert the .gpx data to .shp format (points_coord.shp).
+
+STEP 02:
+Import line and polyline features from the AutoCAD DWG file (planta_baixa.dwg) into shapefile format (polylines_planta_baixa.shp and line_planta_baixa.shp). Typically, polyline data comes with fewer features representing plant details, which will facilitate data treatment.
+
+STEP 03:
+Move the treated floor plan of your building ([polylines_plantabaixa.shp]) so that the coordinates overlap with the vertices established in the field.
+
+STEP 04:
+Insert a georeferenced satellite map or image in the background of the building's floor plan with the position corrected by precision coordinates ([polylines_plantabaixa_georef.shp]).
+
+STEP 05:
+Select features representing areas of interest from the georeferenced floor plan ([polylines_plantabaixa_georef.shp]) in the attribute table, such as entrances/exits, doors, stairs, ramps, pillars, benches, and other obstacles.
+
+STEP 06:
+Extract polyline features ([polylines_plantabaixa_georef.shp]) by attribute category, generating different shapefiles ([ent_exit.shp], [door.shp], [ramp.shp], [floor.shp], ...).
+
+STEP 07:
+Transform polylines into points for the generated files ([node_ent_exit.shp], [node_door.shp], [node_ramp.shp], [node_degr.shp], ...).
+
+STEP 08:
+Create complementary nodes ([node_conect.shp]) that can connect the generated nodes through the attributes of interest ([node_ent_exit.shp], [node_door.shp], [node_ramp.shp], [node_degr.shp], ...).
+
+STEP 09:
+Connect the nodes together so that the points form straight lines between their most adjacent points, forming several corridor line features ([line_corridor.shp]) covering the interior of the building's floor plan ([polylines_plantabaixa_georef.shp]). In this step, it is important to ensure that the lines start from entrances to exits and from doors to corridors, enabling better classification of corridors in the next step.
+
+STEP 10:
+Categorize your corridor lines ([line_corridor.shp]) as primary, secondary, and tertiary; primary corridors are those that start and/or end at entrances/exits of building floors ([primary_line_corridor.shp]), secondary corridors connect doors to primary corridors ([secondary_line_corridor.shp]), and tertiary corridors are areas not directly covered by doors and entrances/exits but still have potential for people circulation ([tertiary_line_corridor.shp]).
+
+STEP 11:
+Merge categorized and linked corridors point-to-point sequentially ([mesh.shp]) to generate a network mesh ([network.net]).
+
+STEP 12:
+Generate routes and define stopping points.
